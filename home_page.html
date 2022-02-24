@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+  
+	<title>Skilled</title>
+
+	<link href="css/slides.min.css" rel="stylesheet" type="text/css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="js/slides.min.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons"/>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./home_page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Stylish&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <script>
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+          }
+        </script>
+
+
+        <style>
+          .zoom {
+            padding: 50px;
+            transition: transform .2s; /* Animation */
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+          }
+          
+          .zoom:hover {
+            transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+          }
+        
+        </style>
+</head>
+
+<body>
+
+
+
+<div class="header_container">
+    <!-- logo -->
+    <div class="logo">
+        <img src="./image/logo.jpg">
+    </div>
+    <!-- svg text -->
+    <div id="svgWrapper">
+        <svg  id="name"  viewBox="0 0 381 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.744 74.44C19.424 74.44 15.792 73.768 12.848 72.424C9.936 71.08 7.536 69.256 5.648 66.952L0.415999 73.96H0.223999V54.28H0.415999C0.959999 57.128 1.792 59.768 2.912 62.2C4.032 64.6 5.488 66.696 7.28 68.488C9.104 70.28 11.296 71.672 13.856 72.664C16.448 73.656 19.488 74.152 22.976 74.152C26.368 74.152 29.344 73.544 31.904 72.328C34.464 71.112 36.464 69.32 37.904 66.952C39.344 64.552 40.064 61.608 40.064 58.12C40.064 55.304 39.36 52.92 37.952 50.968C36.544 49.016 34.688 47.32 32.384 45.88C30.08 44.44 27.536 43.096 24.752 41.848C22 40.6 19.232 39.304 16.448 37.96C13.696 36.616 11.168 35.064 8.864 33.304C6.56 31.512 4.704 29.368 3.296 26.872C1.888 24.376 1.184 21.352 1.184 17.8C1.184 14.28 2.096 11.192 3.92 8.53598C5.776 5.84798 8.208 3.76798 11.216 2.29598C14.224 0.791981 17.504 0.039978 21.056 0.039978C24.32 0.039978 27.264 0.551979 29.888 1.57598C32.512 2.59998 34.752 4.19998 36.608 6.37598L41.792 0.039978H41.984V19.72H41.792C41.152 15.272 39.92 11.624 38.096 8.77598C36.304 5.92798 34.032 3.83198 31.28 2.48798C28.528 1.11198 25.44 0.423981 22.016 0.423981C17.408 0.423981 13.904 1.57598 11.504 3.87998C9.104 6.15198 7.904 9.19198 7.904 13C7.904 15.528 8.592 17.688 9.968 19.48C11.344 21.24 13.152 22.808 15.392 24.184C17.632 25.528 20.096 26.824 22.784 28.072C25.504 29.288 28.208 30.616 30.896 32.056C33.616 33.464 36.096 35.128 38.336 37.048C40.576 38.968 42.384 41.288 43.76 44.008C45.136 46.696 45.824 49.96 45.824 53.8C45.824 57.96 44.928 61.592 43.136 64.696C41.344 67.768 38.784 70.168 35.456 71.896C32.16 73.592 28.256 74.44 23.744 74.44Z" fill="none" stroke="black"/>
+            <path d="M80.7312 73.96C76.5392 73.96 72.7953 73.048 69.4993 71.224C66.2033 69.368 63.6113 66.728 61.7233 63.304C59.8353 59.848 58.8913 55.72 58.8913 50.92C58.8913 46.76 59.7392 42.936 61.4352 39.448C63.1632 35.96 65.6912 33.16 69.0192 31.048C72.3472 28.936 76.4273 27.88 81.2593 27.88C84.5233 27.88 87.3393 28.456 89.7073 29.608C92.0753 30.76 93.8832 32.312 95.1312 34.264C96.4112 36.216 97.0513 38.392 97.0513 40.792C97.0513 42.52 96.5552 43.864 95.5632 44.824C94.5712 45.784 93.3392 46.264 91.8672 46.264C91.0672 46.264 90.2352 46.088 89.3712 45.736C88.5392 45.352 87.8353 44.776 87.2593 44.008C86.6833 43.208 86.3952 42.168 86.3952 40.888C86.3952 39.192 86.9393 37.912 88.0273 37.048C89.1153 36.152 90.3952 35.704 91.8672 35.704C93.2432 35.704 94.4272 36.136 95.4193 37C96.4433 37.832 96.9553 39.096 96.9553 40.792H96.8593C96.8593 38.744 96.4272 36.936 95.5632 35.368C94.7312 33.8 93.6112 32.488 92.2032 31.432C90.7952 30.344 89.2273 29.528 87.4993 28.984C85.7713 28.44 84.0113 28.168 82.2193 28.168C79.3713 28.168 77.0673 28.92 75.3073 30.424C73.5473 31.896 72.2033 33.816 71.2753 36.184C70.3473 38.52 69.7233 41 69.4033 43.624C69.0833 46.216 68.9232 48.648 68.9232 50.92C68.9232 53.672 69.0833 56.392 69.4033 59.08C69.7553 61.768 70.3632 64.2 71.2272 66.376C72.1232 68.552 73.3872 70.296 75.0192 71.608C76.6512 72.92 78.7632 73.576 81.3552 73.576C84.2992 73.576 86.8272 72.968 88.9392 71.752C91.0832 70.504 92.8753 68.808 94.3153 66.664C95.7553 64.488 96.9072 62.024 97.7712 59.272H97.9632C96.7153 63.432 94.7473 66.92 92.0592 69.736C89.3713 72.552 85.5952 73.96 80.7312 73.96Z" fill="none" stroke="black"/>
+            <path d="M110.859 73V72.808H118.588V1.19198H110.859V0.999977H127.18V72.808H133.9V73H110.859ZM140.572 73V72.808H147.676L126.46 47.944L150.411 29.032H139.564V28.84H159.051V29.032H150.652L133.132 42.952L158.572 72.808H162.363V73H140.572Z" fill="none" stroke="black"/>
+            <path d="M182.893 11.56C181.325 11.56 179.965 11 178.812 9.87998C177.693 8.72798 177.132 7.36798 177.132 5.79998C177.132 4.19998 177.693 2.83998 178.812 1.71999C179.965 0.599983 181.325 0.039978 182.893 0.039978C184.493 0.039978 185.852 0.599983 186.972 1.71999C188.092 2.83998 188.652 4.19998 188.652 5.79998C188.652 7.36798 188.092 8.72798 186.972 9.87998C185.852 11 184.493 11.56 182.893 11.56ZM187.164 28.84V72.808H192.924V73H172.764V72.808H178.524V29.032H172.764V28.84H187.164Z"fill="none" stroke="black"/>
+            <path d="M220.686 0.999977V72.808H228.366V73H204.366V72.808H212.094V1.19198H204.366V0.999977H220.686Z" fill="none" stroke="black"/>
+            <path d="M255.579 0.999977V72.808H263.259V73H239.26V72.808H246.988V1.19198H239.26V0.999977H255.579Z" fill="none" stroke="black"/>
+            <path d="M298.009 73.96C293.817 73.96 290.025 73.048 286.633 71.224C283.273 69.368 280.601 66.728 278.617 63.304C276.633 59.848 275.641 55.72 275.641 50.92C275.641 46.12 276.601 42.008 278.521 38.584C280.473 35.128 283.113 32.488 286.441 30.664C289.769 28.808 293.529 27.88 297.721 27.88C302.489 27.88 306.329 28.84 309.241 30.76C312.153 32.648 314.265 35.128 315.577 38.2C316.921 41.272 317.593 44.552 317.593 48.04H282.073V47.848H307.417C307.449 45.96 307.353 43.896 307.129 41.656C306.905 39.384 306.457 37.224 305.785 35.176C305.145 33.096 304.169 31.4 302.857 30.088C301.577 28.744 299.865 28.072 297.721 28.072C295.353 28.072 293.385 28.744 291.817 30.088C290.281 31.4 289.065 33.176 288.169 35.416C287.273 37.624 286.633 40.072 286.249 42.76C285.897 45.448 285.721 48.168 285.721 50.92C285.721 53.64 285.897 56.36 286.249 59.08C286.633 61.768 287.289 64.216 288.217 66.424C289.177 68.6 290.489 70.36 292.153 71.704C293.849 73.016 296.009 73.672 298.633 73.672C303.625 73.672 307.721 72.264 310.921 69.448C314.121 66.632 316.313 63.24 317.497 59.272H317.689C316.441 63.432 314.185 66.92 310.921 69.736C307.657 72.552 303.353 73.96 298.009 73.96Z" fill="none" stroke="black"/>
+            <path d="M351.418 73.864C347.93 73.864 344.634 72.952 341.53 71.128C338.426 69.304 335.898 66.68 333.946 63.256C332.026 59.832 331.066 55.72 331.066 50.92C331.066 46.12 332.026 42.008 333.946 38.584C335.898 35.128 338.426 32.488 341.53 30.664C344.634 28.808 347.93 27.88 351.418 27.88C355.738 27.88 359.178 29.496 361.738 32.728C364.298 35.928 365.834 40.472 366.346 46.36V1.19198H360.586V0.999977H375.034V72.808H380.794V73H366.346V55.48C365.834 61.368 364.298 65.912 361.738 69.112C359.178 72.28 355.738 73.864 351.418 73.864ZM352.858 73.192C355.354 73.192 357.626 72.36 359.674 70.696C361.722 69.032 363.338 66.552 364.522 63.256C365.738 59.96 366.346 55.848 366.346 50.92C366.346 45.992 365.738 41.88 364.522 38.584C363.338 35.256 361.722 32.76 359.674 31.096C357.626 29.4 355.354 28.552 352.858 28.552C350.17 28.552 347.962 29.528 346.234 31.48C344.506 33.4 343.226 36.056 342.394 39.448C341.562 42.808 341.146 46.632 341.146 50.92C341.146 55.208 341.562 59.032 342.394 62.392C343.226 65.752 344.506 68.392 346.234 70.312C347.962 72.232 350.17 73.192 352.858 73.192Z" fill="none" stroke="black"/>
+            </svg>  
+    </div>
+    <div class="to_right_buttons">
+        <a id="btn_1">login</a>
+        <a id="btn_2">signup</a>
+    </div>
+    <div class="round_cover1">
+      <svg width="110" height="40" viewBox="0 0 194 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M145 10.6991C176.5 10.6991 185.54 30.7853 188.777 37.4464C196.286 52.8966 189.124 65.9276 167.291 76.5397C160.814 79.6873 156.155 81.2873 147.707 83.9067C139.121 86.4786 127.531 89.8026 118.543 91.3118C105.13 93.5994 92.307 94.5135 80.0747 94.0541C67.8424 93.5947 56.7281 91.9056 46.7317 88.987C36.5979 86.0209 27.9256 81.9439 20.7151 76.7563C13.367 71.5212 7.93929 65.2955 4.43193 58.0793C2.00376 53.0834 0.859187 48.493 0.998206 44.3081C1.09226 40.0307 2.14738 36.2011 4.1636 32.8193C6.13485 29.3451 8.9535 26.2024 12.6195 23.3912C16.193 20.6251 20.2001 18.1628 24.6409 16.0044C28.7115 14.0259 33.0559 12.2575 37.674 10.6991C42.1995 9.1858 46.7687 7.87995 51.3816 6.78163C55.9019 5.72828 60.3285 4.8349 64.6612 4.10147C68.949 3.27554 72.8892 2.67572 76.4818 2.30203C89.7023 0.794339 102.38 0.522725 114.514 1.48713C138.317 1.45136 184 1.48713 193.5 37.4464" stroke="black" stroke-width="3"/>
+          </svg>
+  </div>
+  <div class="round_cover2">
+    <svg width="100" height="40" viewBox="0 0 194 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M145 10.6991C176.5 10.6991 185.54 30.7853 188.777 37.4464C196.286 52.8966 189.124 65.9276 167.291 76.5397C160.814 79.6873 156.155 81.2873 147.707 83.9067C139.121 86.4786 127.531 89.8026 118.543 91.3118C105.13 93.5994 92.307 94.5135 80.0747 94.0541C67.8424 93.5947 56.7281 91.9056 46.7317 88.987C36.5979 86.0209 27.9256 81.9439 20.7151 76.7563C13.367 71.5212 7.93929 65.2955 4.43193 58.0793C2.00376 53.0834 0.859187 48.493 0.998206 44.3081C1.09226 40.0307 2.14738 36.2011 4.1636 32.8193C6.13485 29.3451 8.9535 26.2024 12.6195 23.3912C16.193 20.6251 20.2001 18.1628 24.6409 16.0044C28.7115 14.0259 33.0559 12.2575 37.674 10.6991C42.1995 9.1858 46.7687 7.87995 51.3816 6.78163C55.9019 5.72828 60.3285 4.8349 64.6612 4.10147C68.949 3.27554 72.8892 2.67572 76.4818 2.30203C89.7023 0.794339 102.38 0.522725 114.514 1.48713C138.317 1.45136 184 1.48713 193.5 37.4464" stroke="black" stroke-width="3"/>
+        </svg>
+</div>
+
+    
+      
+
+    <!-- <div class="right_menu">
+        <div class="login_section">
+            <a href="#">login</a>
+            <svg id="draw_cir_1" version="1.1">
+                <path fill="transparent" stroke="#000000" stroke-width="2" 
+                d="M114 .6c93.36.5 123.83 18.73 123.83 44.78 0 21.51-64.41 39-125 39S.6 69.69.6 48.17C.6 27.34 49.77 6.42 128 6.42c51.83 0 110.62 13.34 110.62 40.49 0 25.33-56.22 39.74-124.86 39.74-48.22 0-101.82-11.34-101.82-38.41 0-12.8 17.44-21.48 41.11-28.49" 
+                ></path>
+            </svg>
+        </div>
+        <div class="signup_section">
+            <a href="#">signup</a>
+        </div>
+    </div> -->
+</div>
+<div class="chose_your_path">
+  <h1 id="e1"></h1>
+      <div><h1 id="a1">Choose</h1></div>
+      <div> <h1 id="a2">your</h1></div>
+        <div>   <h1 id="a3">own</h1></div>
+          <div>     <h1 id="a4"> path</h1></div>
+    <h1 id="e2"></h1>
+
+<!-- 
+<div class="crowd"> <canvas id="canvas"></canvas></div> -->
+</div>
+<!-- <div class="bg_circle1"></div>
+<div class="bg_circle2"></div>
+<div class="bg_circle3"></div> -->
+<!-- <div class="office"><img src="./image/img_bg.jpg" alt=""></div> -->
+
+
+</div>
+<div class="card_holder">
+<div class="card">
+    <!-- <img src="./image/job.png"> -->
+    <div class="container">
+      <h4>Sckilled Jobs</h4>
+      <!-- <p>Lorem ipsum dolor sit amet. </p> -->
+
+    </div>
+    <button type="button"></button>
+
+  </div>
+  <div class="card">
+    <!-- <img src="./image/Certificate.png"> -->
+
+    <div class="container">
+      <h4>Sckilled Certification</h4>
+      <!-- <p>Lorem ipsum dolor sit amet. </p> -->
+
+    </div>
+    <button type="button"></button>
+
+  </div>
+
+  <div class="card">
+    <!-- <img src="./image/mentor.png"> -->
+
+    <div class="container">
+      <h4>Sckilled Mentorship</h4>
+      <!-- <p>Lorem ipsum dolor sit amet. </p> -->
+    </div>
+    <button id="_button" type="button"></button>
+  </div>
+
+  <div class="card">
+    <!-- <img src="./image/scp.png"> -->
+
+    <div class="container">
+      <h4>Sckilled SCP</h4>
+      <!-- <p>Lorem ipsum dolor sit amet. </p> -->
+    </div>
+    <button type="button"></button>
+
+  </div>
+
+</div>
+<div class="mid"></div>
+
+<div class="sec_2">
+  
+  <a>Passion</a>
+  <a>Dreams</a>
+  <a>Goals</a>
+
+</div>
+
+
+
+  
+<div class="next_mid">
+
+<div class="slides horizontal animated"> 
+<div class="slides horizontal animated">
+<!-- Slide 1 (#83) -->
+<section class="slide">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-10-12">
+          <font color="black">
+            <font face="Verdana" size =" 7">
+          <h1 class="ae-1 opacity-8">Articles</h1></font color></font face>
+          <ul class="grid grid-83 noSpaces equal ae-2">
+            <li class="col-4-12 ae-3 zoom" style="background: white">
+              <h3>Education</h3>
+              
+              <div class="ae-5">
+                <h6 class="uppercase bold small opacity-8">Education is the movement to light from darkness</h6>
+              </div>
+              
+            </li>
+            <li class="col-4-12 ae-3 zoom" style="background: white">
+              <h3>Skill Development</h3>
+              
+              <div class="ae-6">
+                <h6 class="uppercase bold small opacity-8">The more importance given to skill developement the more competent will be our youth.</h6>
+              </div>
+              </li>
+             
+            <li class="col-4-12 ae-3 zoom" style="background: white">
+              <h3>Jobs</h3>
+              
+              <div class="ae-7">
+                <h6 class="uppercase bold small opacity-8">Choose a job that you love and you will never have to work a day in your life</h6>
+              </div>
+              </li>
+          </ul>
+        </div> 
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:linear-gradient(rgb(255, 255, 255),rgb(117, 117, 117))"></div>
+
+</section>
+
+<!-- Slide 2 (#95) -->
+<section class="slide">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-10-12">
+          <font color="black">
+            <font face="Verdana" size =" 7">
+          <h1 class="ae-1">Articles</h1></font face></font color> 
+          <ul class="grid grid-83 noSpaces equal ae-2">
+            <li class="col-4-12 ae-3 zoom" style="background: white">
+              <h3>Education</h3>
+              
+              <div class="ae-5">
+                <h6 class="uppercase bold small opacity-4">Education is the movement to light from darkness</h6>
+              </div>
+              
+            </li>
+            <li class="col-4-12 ae-4 zoom" style="background:white">
+              <h3>Skill Development</h3>
+              
+              <div class="ae-6">
+                <h6 class="uppercase bold small opacity-4">The more importance given to skill developement the more competent will be our youth.</h6>
+              </div>
+              </li>
+             
+            <li class="col-4-12 ae-5 zoom" style="background:white">
+              <h3>Jobs</h3>
+              
+              <div class="ae-7">
+                <h6 class="uppercase bold small opacity-4">Choose a job that you love and you will never have to work a day in your life</h6>
+              </div>
+              </li>
+          </ul>
+        </div> 
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:linear-gradient(rgb(255, 255, 255),rgb(117, 117, 117))"></div>
+
+</section>
+
+<!-- Slide 3 (#95) -->
+<section class="slide ">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-10-12">
+          <h1 class="ae-1">Announcements</h1>
+          <ul class="grid grid-83 noSpaces equal ae-2">
+            <li class="col-4-12 ae-3 zoom" style="background: #F5FBFE">
+              <h3>Announcement 1</h3>
+              
+              <div class="ae-5">
+                <h6 class="uppercase bold small opacity-4">Education is the movement to light from darkness</h6>
+              </div>
+              
+            </li>
+            <li class="col-4-12 ae-4 zoom">
+              <h3>Announcement 2</h3>
+              
+              <div class="ae-6">
+                <h6 class="uppercase bold small opacity-4">The more importance given to skill developement the more competent will be our youth.</h6>
+              </div>
+              </li>
+             
+            <li class="col-4-12 ae-5 zoom">
+              <h3>Announcement 3</h3>
+              
+              <div class="ae-7">
+                <h6 class="uppercase bold small opacity-4">Choose a job that you love and you will never have to work a day in your life</h6>
+              </div>
+              </li>
+          </ul>
+        </div> 
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:linear-gradient(rgb(255, 255, 255),rgb(95, 95, 95))"></div>
+
+</section>
+</div>		
+</div>
+</div>
+
+        
+<script src="./home_page.js"></script>
+
+    
+</body>
+</html>
